@@ -1,4 +1,4 @@
-package com.example.lizx;
+﻿package com.example.lizx;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         SophixManager.getInstance().queryAndLoadNewPatch();
 
         final TextView tv=findViewById(R.id.tv_hello);
-        tv.setText("oh success !!!!");
+        tv.setText("oh success 999!!!!");
 //         new Thread("Thread1") {
 //            public void run() {
 //                tv.setText(System.currentTimeMillis() + "33333333");
