@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         SophixManager.getInstance().queryAndLoadNewPatch();
 
         final TextView tv=findViewById(R.id.tv_hello);
-        tv.setText("oh success 999!!!!");
+        tv.setText("oh success 9909!!!!");
 //         new Thread("Thread1") {
 //            public void run() {
 //                tv.setText(System.currentTimeMillis() + "33333333");
